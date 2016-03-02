@@ -137,22 +137,22 @@ local function run(msg, matches)
 
 		set_text(LANG, 'langUpdated', 'تم تحديث اللغة لـ: ')
 
-		set_text(LANG, 'chatUpgrade', 'Chat Upgraded Successfully.')
-		set_text(LANG, 'notInChann', 'You can\'t do this in a supergroup.')
+		set_text(LANG, 'chatUpgrade', 'دردشة ترقية بنجاح.')
+		set_text(LANG, 'notInChann', 'لا يمكنك أن تفعل هذا في السوبر كروب.')
 
-		set_text(LANG, 'chatUpgrade', 'Chat Upgraded Successfully.')
-		set_text(LANG, 'notInChann', 'You can\'t do this in a supergroup.')
-		set_text(LANG, 'desChanged', 'Channel description has been changed.')
-		set_text(LANG, 'desOnlyChannels', 'Description only can be changed in channels.')
+		set_text(LANG, 'chatUpgrade', 'دردشة ترقية بنجاح.')
+		set_text(LANG, 'notInChann', 'لا يمكنك أن تفعل هذا في السوبر كروب..')
+		set_text(LANG, 'desChanged', 'تم تغيير وصف القناة.')
+		set_text(LANG, 'desOnlyChannels', 'الوصف فقط يمكن تغيير في القنوات.')
 
-		set_text(LANG, 'muteAll', 'Everyone is muted now.')
-		set_text(LANG, 'unmuteAll', 'Everyone can talk now.')
-		set_text(LANG, 'muteAllX:1', 'This channel has been muted for')
-		set_text(LANG, 'muteAllX:2', 'seconds.')
+		set_text(LANG, 'muteAll', 'في وضع صامت الجميع الآن.')
+		set_text(LANG, 'unmuteAll', 'يمكن لأي شخص أن يتحدث الآن.')
+		set_text(LANG, 'muteAllX:1', 'تم تجاهل هذه القناة لـ')
+		set_text(LANG, 'muteAllX:2', 'ثواني.')
 
-		set_text(LANG, 'createGroup:1', 'Group')
-		set_text(LANG, 'createGroup:2', 'created.')
-		set_text(LANG, 'newGroupWelcome', 'Welcome to your new group.')
+		set_text(LANG, 'createGroup:1', 'كروب')
+		set_text(LANG, 'createGroup:2', 'انشاء.')
+		set_text(LANG, 'newGroupWelcome', 'مرحبا بكم في مجموعتك الجديدة.')
 
 		-- export_gban.lua --
 		set_text(LANG, 'accountsGban', 'حسابات المحظورة عام.')
@@ -237,8 +237,8 @@ local function run(msg, matches)
 		set_text(LANG, 'errorNoPlug', 'الاضافات ليسة موجودة في الاستخدام.')
 
 		-- rules.lua --
-		set_text(LANG, 'setRules', 'Chat rules have been updated.')
-		set_text(LANG, 'remRules', 'Chat rules have been removed.')
+		set_text(LANG, 'setRules', 'تم تحديث قوانين الكروب.')
+		set_text(LANG, 'remRules', 'تم إزالة قوانين الكروب.')
 
 		------------
 		-- Usages --
@@ -254,11 +254,6 @@ local function run(msg, matches)
 		set_text(LANG, 'commands:1', '#commands: عرض كل الأوامر لكل المساعد.')
 		set_text(LANG, 'commands:2', '#commands [plugins]: أوامر لهذا البرنامج المساعد.')
 
-		
-		-- rules.lua --
- 		set_text(LANG, 'setRules', 'تم تحديث قوانين الكروب.')
- 		set_text(LANG, 'remRules', 'تم إزالة قوانين الكروب.')
-		
 		
 		-- export_gban.lua --
 		set_text(LANG, 'export_gban:0', 2)
